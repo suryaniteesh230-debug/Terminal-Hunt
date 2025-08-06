@@ -1,7 +1,7 @@
-read -s -p "Enter password to execute script: " USER_PASSWORD
+read -s -p "Enter password to execute script: " USER_PASSWOR:D
 echo
 
-if [ "$USER_PASSWORD" == "$CORRECT_PASSWORD" ]; then
+if [ "$USER_PASSWORD" == "$LOCA_LOCA" ]; then
 
 	username=$(git config user.name)
 	clear
